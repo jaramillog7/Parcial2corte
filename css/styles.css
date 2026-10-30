@@ -6,6 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
 }
 
 img {
@@ -69,4 +71,68 @@ img {
     background-color: white;
     color: #1689e8;
     cursor: pointer;
+}
+
+/* Banner principal */
+
+.banner {
+    width: 100%;
+    min-height: 500px;
+
+    background-image: url("../images/banner-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+}
+
+.banner__contenido {
+    width: 350px;
+    margin-left: 6%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner__logo {
+    width: 280px;
+    height: auto;
+}
+
+.banner__descripcion {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.banner__botones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner__boton {
+    width: 190px;
+    padding: 12px 20px;
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+
+    border-radius: 25px;
+}
+
+.banner__boton--principal {
+    background-color: #dc584e;
+}
+
+.banner__boton--secundario {
+    background-color: transparent;
+    border: 1px solid white;
 }
