@@ -69,12 +69,12 @@ img {
     background-color: #f2f2f2;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    padding: 10px 20px;
-    min-height: 65px;
+.navbar__search button {
+    padding: 8px 12px;
+    border: none;
+    background-color: white;
+    color: #1689e8;
+    cursor: pointer;
 }
 
 /* Banner principal */
