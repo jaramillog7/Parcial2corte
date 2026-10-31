@@ -23,6 +23,7 @@
 }
 
 .parks__tarjeta {
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -56,4 +57,10 @@
     color: black;
     font-size: 12px;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .parks__contenedor {
+        grid-template-columns: minmax(0, 1fr);
+    }
 }

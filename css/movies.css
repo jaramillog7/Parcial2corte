@@ -37,3 +37,15 @@
     margin-top: 5px;
     line-height: 1.4;
 }
+
+@media (max-width: 1024px) {
+    .movies__contenedor {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .movies__contenedor {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

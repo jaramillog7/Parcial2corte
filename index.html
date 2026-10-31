@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/disney-plus.css">
     <link rel="stylesheet" href="css/movies.css">
     <link rel="stylesheet" href="css/parks.css">
+    <link rel="stylesheet" href="css/disney-visa.css">
 
 
 </head>
@@ -15,18 +16,18 @@
 
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main navigation">
 
         <div class="navbar__logo">
             <img src="images/logo.png" alt="Logo de Disney">
         </div>
 
         <div class="navbar__links">
-            <a href="#">DISNEY +</a>
-            <a href="#">PARKS & TRAVEL</a>
-            <a href="#">MOVIES</a>
-            <a href="#">SHOP</a>
-            <a href="#">MORE</a>
+            <a href="#disney-plus">DISNEY +</a>
+            <a href="#parks-and-travel">PARKS & TRAVEL</a>
+            <a href="#movies">MOVIES</a>
+            <a href="#shop">SHOP</a>
+            <a href="#disney-visa">MORE</a>
         </div>
 
         <div class="navbar__right">
@@ -43,15 +44,19 @@
     </nav>
 
 
-    <section class="banner">
+    <main>
+
+        <section class="banner" aria-labelledby="banner-title">
 
             <div class="banner__contenido">
 
-                <img
-                    class="banner__logo"
-                    src="images/snow-white.png"
-                    alt="Snow White"
-                >
+                <h1 id="banner-title" class="banner__titulo">
+                    <img
+                        class="banner__logo"
+                        src="images/snow-white.png"
+                        alt="Snow White"
+                    >
+                </h1>
 
                 <p class="banner__descripcion">
                     Experience Snow White, now playing only in theaters!
@@ -62,16 +67,14 @@
                         Get Tickets Now
                     </a>
 
-                <a href="#" class="banner__boton banner__boton--secundario">
-                    Learn More
-                </a>
-        </div>
+                    <a href="#" class="banner__boton banner__boton--secundario">
+                        Learn More
+                    </a>
+                </div>
 
-    </div>
+            </div>
 
-    </section>
-
-    <main>
+        </section>
 
         <section id="shop" class="shop">
 
@@ -277,6 +280,31 @@
             </div>
 
         </section>
+
+        <!-- Sección promocional Disney Visa -->
+        <section id="disney-visa" class="disney-visa">
+
+            <div class="disney-visa__contenedor">
+
+                <div class="disney-visa__informacion">
+
+                    <h2>Disney Visa Card</h2>
+
+                    <p>
+                        Enjoy special Disney vacation benefits
+                        and exclusive offers with your Disney Visa Card.
+                    </p>
+
+                    <a href="#" class="disney-visa__boton">
+                        LEARN MORE
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
 
 
 
