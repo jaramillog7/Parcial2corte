@@ -1,0 +1,47 @@
+.footer {
+    background-color: white;
+    color: black;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer__contenedor {
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__logo {
+    width: 80px;
+    height: auto;
+    margin: 0 auto 25px;
+}
+
+.footer__enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+}
+
+.footer__enlaces a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.footer__enlaces a:hover {
+    text-decoration: underline;
+}
+
+.footer__enlaces--legales {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.footer__copyright {
+    margin-top: 20px;
+    font-size: 11px;
+    line-height: 1.5;
+}
