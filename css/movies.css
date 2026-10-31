@@ -1,0 +1,39 @@
+.movies {
+    background-color: #f1f2f4;
+    padding: 35px 0 45px;
+}
+
+.movies__titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.movies__contenedor {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movies__tarjeta img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.movies__tarjeta h3 {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+
+.movies__tarjeta p {
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 1.4;
+}
