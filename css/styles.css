@@ -142,6 +142,7 @@ img {
 
 .banner__boton--principal {
     background-color: #dc584e;
+    color: black;
 }
 
 .banner__boton--secundario {
@@ -161,7 +162,6 @@ img {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 20px;
     width: 88%;
-    max-width: 1200px;
     margin: 0 auto;
 }
 

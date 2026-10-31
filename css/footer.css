@@ -45,3 +45,22 @@
     font-size: 11px;
     line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+    .footer__enlaces {
+        gap: 8px 12px;
+    }
+
+    .footer__enlaces a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+
+    .footer__copyright {
+        font-size: 13px;
+    }
+}

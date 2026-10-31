@@ -1,5 +1,5 @@
 .disney-plus {
-    background-color: #294653;
+    background-color: #054553;
     color: white;
     padding: 30px 0 45px;
 }
@@ -16,7 +16,6 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
     width: 88%;
-    max-width: 1200px;
     margin: 0 auto;
 }
 

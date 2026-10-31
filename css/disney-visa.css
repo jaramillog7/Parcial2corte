@@ -66,10 +66,21 @@
     border-radius: 25px;
 }
 
+.disney-visa__legal {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .disney-visa {
         display: block;
-        padding-top: 48.83vw;
+        background-image: none;
+    }
+
+    .disney-visa::before {
+        content: "";
+        display: block;
+        height: clamp(260px, 80vw, 420px);
+        background: url("../images/more-background.jpeg") left center / 200% auto no-repeat;
     }
 
     .disney-visa__contenedor {
@@ -78,9 +89,28 @@
 
     .disney-visa__informacion {
         width: 100%;
+        gap: 24px;
     }
 
     .disney-visa__informacion h2 {
         text-align: center;
+    }
+
+    .disney-visa__beneficio h3 {
+        font-size: 18px;
+    }
+
+    .disney-visa__informacion p {
+        font-size: 16px;
+    }
+
+    .disney-visa__boton {
+        font-size: 16px;
+    }
+
+    .disney-visa__legal {
+        display: block;
+        font-size: 13px;
+        line-height: 1.5;
     }
 }
