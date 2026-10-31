@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #6663a6;
+    background-color: #655fb1;
 }
 
 img {
@@ -152,7 +152,7 @@ img {
 
 
 .shop {
-    background-color: #6663a6;
+    background-color: #655fb1;
     padding: 30px 0;
 }
 
@@ -166,14 +166,15 @@ img {
 }
 
 .shop__tarjeta {
-    background-color: #e2ca73;
+    background-color: #e8c75c;
     display: flex;
     flex-direction: column;
 }
 
 .shop__tarjeta img {
     width: 100%;
-    height: 250px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
 }
 .shop__informacion {
