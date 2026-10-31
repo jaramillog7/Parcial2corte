@@ -189,3 +189,51 @@ img {
     font-weight: bold;
     color: black;
 }
+
+.disney-plus {
+    background-color: #294653;
+    color: white;
+    padding: 30px 0 45px;
+}
+
+.disney-plus__titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.disney-plus__contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 88%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.disney-plus__tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+}
+
+.disney-plus__imagen {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.disney-plus__tarjeta p {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.disney-plus__tarjeta a {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: auto;
+}
