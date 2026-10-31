@@ -73,6 +73,10 @@ img {
     cursor: pointer;
 }
 
+.navbar__lupa {
+    display: block;
+}
+
 /* Banner principal */
 
 .banner {
