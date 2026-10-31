@@ -1,11 +1,12 @@
 
 .disney-visa {
     width: 100%;
-    min-height: 380px;
+    min-height: 48.83vw;
 
+    background-color: #e6fcf9;
     background-image: url("../images/more-background.jpeg");
-    background-size: cover;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: center top;
     background-repeat: no-repeat;
 
     display: flex;
@@ -13,46 +14,73 @@
 }
 
 .disney-visa__contenedor {
-    width: 88%;
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    padding: 40px 4% 80px;
 
     display: flex;
     justify-content: flex-end;
 }
 
 .disney-visa__informacion {
-    width: 380px;
-    max-width: 100%;
+    width: 43%;
     text-align: center;
+    color: #315e9b;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: clamp(20px, 2vw, 32px);
 }
 
 .disney-visa__informacion h2 {
-    font-size: 28px;
-    font-weight: normal;
-    color: #142d4b;
+    font-size: clamp(24px, 2.6vw, 44px);
+    text-align: left;
+}
+
+.disney-visa__beneficio h3 {
+    font-size: clamp(16px, 1.3vw, 24px);
+    margin-bottom: 8px;
 }
 
 .disney-visa__informacion p {
-    font-size: 15px;
+    font-size: clamp(12px, 1.1vw, 18px);
     line-height: 1.6;
-    color: #142d4b;
+}
+
+.disney-visa__beneficio p + p {
+    margin-top: 6px;
 }
 
 .disney-visa__boton {
     display: inline-block;
-    padding: 12px 35px;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px 25px;
 
-    background-color: #142d4b;
+    background-color: #9556a6;
     color: white;
 
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+    .disney-visa {
+        display: block;
+        padding-top: 48.83vw;
+    }
+
+    .disney-visa__contenedor {
+        padding: 25px 6% 35px;
+    }
+
+    .disney-visa__informacion {
+        width: 100%;
+    }
+
+    .disney-visa__informacion h2 {
+        text-align: center;
+    }
 }
