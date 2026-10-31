@@ -1,5 +1,6 @@
-Giuliano Jaramillo
-William Castro
+# Hecho por
+
+Giuliano Jaramillo y William Castro
 
 # Aprendizajes
 
